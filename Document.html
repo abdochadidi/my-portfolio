@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/index.html#contatctMe -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Document_files/style.css">
+</head>
+<body>
+  <header>
+    <img src="./Document_files/logo.svg" alt="abdochadidi logo">
+    <nav class="navigation">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html#aboutMe">About Me</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#myWorks">My Works</a></li>
+        <li><a href="http://127.0.0.1:5500/index.html#contatctMe">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <hr>
+  <section class="hero">
+    <img class="arrow" src="./Document_files/arrow.svg" alt="arrow">
+    <div class="heroSub">
+      <h1 class="name">I'm Abdo</h1>
+      <h1 class="title">Devloper</h1>
+      <div class="hiroBtns">
+        <a class="hirMe" href="http://127.0.0.1:5500/index.html#contactMe">Hire me</a>
+        <a class="cv" href="http://127.0.0.1:5500/assets/Musaab%20kubbi%20CV.pdf" download="">Download CV
+        <img src="./Document_files/download.svg" alt="download button">
+        </a>
+      </div>
+    </div>
+    <img src="./Document_files/Hero.svg" alt="hero image" class="heroImg"> 
+  </section>
+  <section class="aboutMe" id="aboutMe">
+    <img src="./Document_files/AboutMe.svg" alt="aboutMe image" class="aboutMeImg"> 
+    <div class="textContainer">
+      <div class="textTitle">
+        <h1 class="aboutName">About</h1>
+        <h class="aboutTitle">me</h>
+        <img src="./Document_files/lightbulb.svg" alt="ligh" class="light">
+      </div>
+      <p class="aboutMePar">
+        Hey, I'm Abdo, a Devloper who loves turning complex ideas into simple, sleek solutions. Currently diving into mobile app devlopment to level up my skills. I enjoy building cool stuff,experimenting with new tech,and making things look and feel great.
+      </p>
+    </div>
+  </section>
+  <section class="works" id="myworks">
+    <div clss="worksConainer">
+      <div class="projectTitle">
+        <h1 class="aboutName">My recent</h1>
+        <h1 class="aboutTitle">works</h1>
+      </div>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/abdo__chadidi?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw%3D%3D"><img src="./Document_files/instagram.png" alt="lading Page"></a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send/?phone=%2B212773265080&amp;text&amp;type=phone_number&amp;app_absent=0"><img src="./Document_files/whatsapp.png" alt="Web App"></a>
+        </li>
+        <li>
+          <a href="https://github.com/abdosvte/fkuthfm"><img src="./Document_files/github.svg" alt="my x account"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="contactContainer" id="contactMe">
+    <div class="contactTitle">
+      <h1 class="aboutName">Contact</h1>
+      <h1 class="aboutTitle">me</h1>
+    </div>
+    <div class="contact">
+      <div class="emailAndPhone">
+        <img src="./Document_files/Email.svg" alt="email logo">
+        <a href="mailto:bboel1100@gmail.com"><h3>bboel1100@gmail.com</h3></a>
+      </div>
+      <div class="emailAndPhone">
+        <img src="./Document_files/phone.svg" alt="phone logo">
+        <h3>+212773265080</h3>
+      </div>
+    </div>
+  </section>kedin"&gt;
+        
+      
+    
+  
+
+  <hr>
+  <footer>
+    <p>Built by Ab</p>
+  </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+ 
+</body></html>
